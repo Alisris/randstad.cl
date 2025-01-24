@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-branch-locator"]=this["webpackJsonpreact-branch-locator"]||[]).push([[11],{76:function(e,t,c){"use strict";c(0);var o=c(114);t.a=function(e){const t={},c=e.split("/"),a={r:"region",q:"city",postcode:"postcode",d:"distance",gv:"type",page:"page"};for(let s of c)if(s){s=decodeURIComponent(s);let e=s.match(/^(r|postcode|q|d|gv|page)-([^/]+)$/);if(e){t[a[e[1]]||e[1]]=Object(o.a)(e[2])}else t.specialism=Object(o.a)(s)}return t}}}]);
+//# sourceMappingURL=searchParamsParser-server.56dc36b5.chunk.js.map
